@@ -1,0 +1,13 @@
+# schema.yml
+version: 2
+
+sources:
+  - name: raw
+    schema: ritarawdata
+    tables:
+      - name: sales
+        identifier: ritasales
+      - name: product
+        identifier: ritaproduct
+      - name: ship
+        identifier: ritaship
